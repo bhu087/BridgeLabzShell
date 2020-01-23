@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 source Utility.sh
 echo "Enter 2 points X and Y"
 read X

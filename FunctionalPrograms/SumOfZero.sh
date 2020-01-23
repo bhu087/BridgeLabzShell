@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 source Utility.sh
 echo "Enter an array size"
 read size

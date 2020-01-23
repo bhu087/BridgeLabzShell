@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #Sum of zero Utility
 SumOfZero(){
 a=$1

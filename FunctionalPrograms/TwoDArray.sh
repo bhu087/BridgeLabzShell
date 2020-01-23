@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash/ -x
 #this is the Two dimensional array program
 # it receives the number of rows and columns
 echo "Two D array program"
