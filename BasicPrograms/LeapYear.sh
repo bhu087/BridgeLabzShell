@@ -1,23 +1,6 @@
 #!/bin/bash/
 # this is leap year logic
-LeapYear(){
-Year=$1
-# it checks leap year or not
-if [ $(( Year % 4 )) -eq 0 ]
-then
-        if [ $(( Year % 100 )) -eq 0 ]
-        then
-                if [ $(( Year % 400 )) -eq 0 ]
-                then
-                        return 1
-                fi
-        return 0
-        fi
-return 1
-else
-return 0
-fi
-}
+source Utility.sh
 # this is the main program
 echo "This is your Leap Year Utility"
 echo "Enter your year"
