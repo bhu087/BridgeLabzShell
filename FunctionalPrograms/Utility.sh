@@ -27,3 +27,15 @@ else
 
 fi
 }
+#Distance Utility
+DistanceUtility(){
+X=$1
+Y=$2
+SqX=`expr $X \* $X`
+SqY=` expr $Y \* $Y`
+Value=`expr $SqX + $SqY`
+#calculating sqrt im using awk
+Dist=$(echo "$Value" | awk '{print sqrt($1)}')
+clear
+echo "Distance is $Dist"
+}
