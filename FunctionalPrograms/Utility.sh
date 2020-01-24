@@ -13,7 +13,7 @@ then
         fi
 else
 #if values are more then 3 then it will execute
-        for (( i=0; i<size; i++ ))
+        for (( i=0; i<$size; i++ ))
         do
                 (( i= $i % $size ))
                 (( j= ($i+1) % $size ))
